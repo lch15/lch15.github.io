@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-08-18T13:07:03.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="mTe_-g3K7oHkrArKOozR" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-18T13:23:15.102Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="pi3IBBqaGRrXRR1Sjf3v" version="14.9.7" type="github">
   <diagram id="OLSurVRoZr15qUmmpD0T" name="Page-1">
     <mxGraphModel dx="2012" dy="1831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="jITNSu-SsMeYrTfhRFKP-1" value="物理层" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="862.5" width="140" height="104" as="geometry">
+          <mxGeometry x="-150" y="750" width="140" height="104" as="geometry">
             <mxRectangle x="-160" y="862.5" width="70" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -151,7 +151,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jITNSu-SsMeYrTfhRFKP-62" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry y="595" width="20" height="562" as="geometry" />
+          <mxGeometry y="595" width="20" height="335" as="geometry" />
         </mxCell>
         <mxCell id="jITNSu-SsMeYrTfhRFKP-63" value="传输媒体" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="582.5" width="80" height="20" as="geometry" />
@@ -247,22 +247,31 @@
           <mxGeometry x="370" y="730" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jITNSu-SsMeYrTfhRFKP-91" value="信道复用技术（为什么要复用？）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="880" width="195" height="20" as="geometry" />
+          <mxGeometry x="20" y="922.5" width="195" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jITNSu-SsMeYrTfhRFKP-93" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="796.25" width="10" height="253.75" as="geometry" />
+          <mxGeometry x="212.5" y="806.25" width="10" height="253.75" as="geometry" />
         </mxCell>
         <mxCell id="jITNSu-SsMeYrTfhRFKP-94" value="频分复用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="790" width="80" height="20" as="geometry" />
+          <mxGeometry x="222.5" y="800" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jITNSu-SsMeYrTfhRFKP-95" value="时分复用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="870" width="80" height="20" as="geometry" />
+          <mxGeometry x="222.5" y="880" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jITNSu-SsMeYrTfhRFKP-96" value="波分复用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="950" width="80" height="20" as="geometry" />
+          <mxGeometry x="222.5" y="960" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jITNSu-SsMeYrTfhRFKP-97" value="码分复用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="1040" width="80" height="20" as="geometry" />
+        <mxCell id="jITNSu-SsMeYrTfhRFKP-97" value="码分复用（码型的概念？原理？识别？（不同码型正交的特殊关系））" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1050" width="510" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jITNSu-SsMeYrTfhRFKP-98" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="857.5" width="10" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="jITNSu-SsMeYrTfhRFKP-99" value="同步时分复用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="850" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jITNSu-SsMeYrTfhRFKP-100" value="异步时分复用（出现原因？前提？实现？）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="292.5" y="910" width="270" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
