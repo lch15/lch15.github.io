@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-25T13:51:08.835Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="KWgKMpe8VNv-2cC-VTTc" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-31T02:22:23.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="yxiRGEBCta1R4YA8gV3d" version="14.9.9" type="github">
   <diagram id="hSVNQmZPECDhpZthoh3y" name="Page-1">
-    <mxGraphModel dx="1824" dy="1020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="50" y="690" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sjHmsEa6xpU82FLeE54--3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="42.5" width="20" height="1347.5" as="geometry" />
+          <mxGeometry x="160" y="42.5" width="20" height="1267.5" as="geometry" />
         </mxCell>
         <mxCell id="sjHmsEa6xpU82FLeE54--4" value="只提供尽可能的交付（why）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="65" width="170" height="20" as="geometry" />
@@ -142,7 +142,7 @@
           <mxGeometry x="180" y="546" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sjHmsEa6xpU82FLeE54--52" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="240" y="340" width="20" height="430" as="geometry" />
+          <mxGeometry x="240" y="340" width="20" height="660" as="geometry" />
         </mxCell>
         <mxCell id="sjHmsEa6xpU82FLeE54--53" value="IP数据报首部" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="620" width="80" height="20" as="geometry" />
@@ -150,8 +150,8 @@
         <mxCell id="sjHmsEa6xpU82FLeE54--54" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="356" y="590" width="20" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="sjHmsEa6xpU82FLeE54--55" value="首部长度20字节，可选部分40字节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="376" y="660" width="204" height="20" as="geometry" />
+        <mxCell id="sjHmsEa6xpU82FLeE54--55" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;首部长度20字节，任选部分40字节，4字节对齐&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="376" y="660" width="284" height="20" as="geometry" />
         </mxCell>
         <mxCell id="sjHmsEa6xpU82FLeE54--56" value="一些关键字段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="324" y="585" width="204" height="20" as="geometry" />
@@ -211,148 +211,213 @@
           <mxGeometry x="534" y="300" width="456" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fUcBDPmrcVVg6Rg_Th7O-10" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;ICMP协议&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="190" y="930" width="60" height="20" as="geometry" />
+          <mxGeometry x="246" y="1200" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fUcBDPmrcVVg6Rg_Th7O-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="260" y="900" width="20" height="80" as="geometry" />
+          <mxGeometry x="316" y="1170" width="20" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fUcBDPmrcVVg6Rg_Th7O-12" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;种类&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="264" y="890" width="80" height="20" as="geometry" />
+          <mxGeometry x="320" y="1160" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fUcBDPmrcVVg6Rg_Th7O-13" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="336" y="885" width="20" height="30" as="geometry" />
+          <mxGeometry x="392" y="1155" width="20" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fUcBDPmrcVVg6Rg_Th7O-15" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;差错报告报文&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="350" y="870" width="100" height="20" as="geometry" />
+          <mxGeometry x="406" y="1140" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fUcBDPmrcVVg6Rg_Th7O-16" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;询问报文&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="360" y="910" width="60" height="20" as="geometry" />
+          <mxGeometry x="416" y="1180" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fUcBDPmrcVVg6Rg_Th7O-17" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;不发送差错报告报文的情况&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="271" y="970" width="179" height="20" as="geometry" />
+          <mxGeometry x="327" y="1240" width="179" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fUcBDPmrcVVg6Rg_Th7O-18" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="955" width="20" height="50" as="geometry" />
+          <mxGeometry x="496" y="1225" width="20" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fUcBDPmrcVVg6Rg_Th7O-19" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;ICMP差错报告报文出错，不再发送&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="454" y="940" width="226" height="20" as="geometry" />
+          <mxGeometry x="510" y="1210" width="226" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fUcBDPmrcVVg6Rg_Th7O-20" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;对分片的数据报后续的数据报&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="440" y="960" width="226" height="20" as="geometry" />
+          <mxGeometry x="496" y="1230" width="226" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fUcBDPmrcVVg6Rg_Th7O-21" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;对于多播数据报&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="408" y="980" width="226" height="20" as="geometry" />
+          <mxGeometry x="464" y="1250" width="216" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fUcBDPmrcVVg6Rg_Th7O-22" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;对于特殊地址&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="400" y="1000" width="226" height="20" as="geometry" />
+          <mxGeometry x="456" y="1270" width="214" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fUcBDPmrcVVg6Rg_Th7O-23" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;路由选择协议&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="180" y="1290" width="94" height="20" as="geometry" />
+          <mxGeometry x="246" y="1565.5" width="94" height="20" as="geometry" />
         </mxCell>
         <mxCell id="fUcBDPmrcVVg6Rg_Th7O-24" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="274" y="1215" width="20" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="fUcBDPmrcVVg6Rg_Th7O-25" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;EGP&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="275" y="1380" width="89" height="20" as="geometry" />
+          <mxGeometry x="340" y="1370.5" width="20" height="415" as="geometry" />
         </mxCell>
         <mxCell id="fUcBDPmrcVVg6Rg_Th7O-26" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;IGP&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="289.75" y="1200" width="59.5" height="20" as="geometry" />
+          <mxGeometry x="355.75" y="1355.5" width="59.5" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="348" y="1170" width="20" height="270" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="414" y="1325.5" width="20" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-2" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;RIP&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="364" y="1160" width="80" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-2" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;RIP&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="430" y="1315.5" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="1115.5" width="20" height="120" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="816" y="1271" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-4" value="工作原理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="770" y="1105.5" width="100" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-4" value="工作原理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="836" y="1261" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-5" value="传输时一些细节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="770" y="1225.5" width="100" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-5" value="传输时一些细节" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="836" y="1381" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="859" y="1074.5" width="20" height="80" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="925" y="1230" width="20" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-7" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;仅和相邻路由交换信息&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="870" y="1054.5" width="154" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-7" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;仅和相邻路由交换信息&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="936" y="1210" width="154" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-8" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;交换全部的路由表信息，实际上每个报文只交换一部分&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="870" y="1085.5" width="326" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-8" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;交换全部的路由表信息，实际上每个报文只交换一部分&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="936" y="1241" width="326" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-9" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;按固定时间间隔交换信息，不论网络状态是否发生变化&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="879" y="1115.5" width="311" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-9" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;按固定时间间隔交换信息，不论网络状态是否发生变化&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="945" y="1271" width="311" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-10" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;距离向量算法&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="870" y="1141" width="107" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-10" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;距离向量算法&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="936" y="1296.5" width="107" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="1195.5" width="20" height="80" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="936" y="1351" width="20" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-15" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;一条路由信息占20个字节&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="890" y="1180.5" width="140" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-15" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;一条路由信息占20个字节&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="956" y="1336" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-17" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;使用UDP传输&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="874.5" y="1205.5" width="116" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-17" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;使用UDP传输&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="940.5" y="1361" width="116" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-18" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;坏消息传的慢（whiy？）&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="867" y="1235.5" width="186" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-18" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;坏消息传的慢（whiy？）&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="933" y="1391" width="186" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-19" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;优点：实现简单，开销小&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="867" y="1265.5" width="186" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-19" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;优点：实现简单，开销小&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="933" y="1421" width="186" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-21" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="beFXTqPe4xxG_kr58vNH-21" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="1169.5" as="sourcePoint" />
-            <mxPoint x="490" y="1169.5" as="targetPoint" />
+            <mxPoint x="496" y="1325" as="sourcePoint" />
+            <mxPoint x="556" y="1325" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-22" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;寻找路由最少的路径，16跳之后视为不可达&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="419" y="1161" width="411" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-22" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;寻找路由最少的路径，16跳之后视为不可达&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="485" y="1316.5" width="411" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-23" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;OSPF&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1439.5" width="80" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-23" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;OSPF&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="442" y="1585" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-24" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="beFXTqPe4xxG_kr58vNH-24" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="544" y="1449" as="sourcePoint" />
-            <mxPoint x="604" y="1449" as="targetPoint" />
+            <mxPoint x="516" y="1594.5" as="sourcePoint" />
+            <mxPoint x="576" y="1594.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-25" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;寻找权重最小路径，由耗时等因素决定权重&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="599" y="1439.5" width="251" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-25" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;寻找权重最小路径，由耗时等因素决定权重&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="571" y="1585" width="251" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-26" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="1395" width="20" height="120" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-26" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="832" y="1540.5" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-27" value="工作原理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="869" y="1385" width="100" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-27" value="工作原理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="841" y="1530.5" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-28" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="957" y="1355" width="20" height="80" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-28" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="929" y="1500.5" width="20" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-29" value="向本自治系统内广播" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="969" y="1340" width="154" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-29" value="向本自治系统内广播" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="941" y="1485.5" width="154" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-30" value="只交换相连接的链路状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="977" y="1370" width="154" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-30" value="只交换相连接的链路状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="949" y="1515.5" width="154" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-31" value="只在链路状态发生改变时交换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="977" y="1395" width="173" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-31" value="只在链路状态发生改变时交换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="949" y="1540.5" width="173" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-32" value="最小权重优先，且全网的状态一致，收敛很快" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="977" y="1420" width="263" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-32" value="最小权重优先，且全网的状态一致，收敛很快" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="949" y="1565.5" width="263" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-33" value="为了能用于很大规模的网络，划分路由器为区域内、主干、区域边界、自治系统边界四个层次" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="877" y="1470" width="523" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-33" value="为了能用于很大规模的网络，划分路由器为区域内、主干、区域边界、自治系统边界四个层次" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="849" y="1615.5" width="523" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-35" value="不使用UDP，使用IP数据报" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="867" y="1490" width="193" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-35" value="不使用UDP，使用IP数据报" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="839" y="1635.5" width="193" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="beFXTqPe4xxG_kr58vNH-36" value="相邻的路由器每十秒互相通信一次" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="870" y="1510" width="220" height="20" as="geometry" />
+        <mxCell id="beFXTqPe4xxG_kr58vNH-36" value="相邻的路由器每十秒互相通信一次" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="842" y="1655.5" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-2" value="EGP（不同于IGP）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="366" y="1768.5" width="140" height="26" as="geometry">
+            <mxRectangle x="310" y="1760" width="140" height="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-4" value="1.整个互联网规模太大，&#xa;各自治区间的路由选择&#xa;很困难&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="57KmwuT8w8z1DkJVk8GE-2">
+          <mxGeometry y="26" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-5" value="2.各自治区可以有自己的&#xa;路由选择策略，比如我&#xa;国的墙&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="57KmwuT8w8z1DkJVk8GE-2">
+          <mxGeometry y="80" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-6" value="因此，EGP的目标不是&#xa;寻找一条最佳路由，而&#xa;是寻找一条可达的较&#xa;好路由，采用路径向量&#xa;路由选择协议&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="57KmwuT8w8z1DkJVk8GE-2">
+          <mxGeometry y="140" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-8" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;BGP协议&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1775" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="672" y="1708.5" width="20" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-10" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;交换的是内部ISP的可达信息，这是一个分层的思想&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="685" y="1725" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-11" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;BGP发言人之间建立的TCP连接&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="702" y="1698.5" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-12" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;刚开始交换整个BGP路由表，后面只交换有变化的部分&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="692" y="1755" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-13" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;四个连接状态&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="697" y="1835" width="85" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="792" y="1789" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-15" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;OPEN（可能会被拒绝）&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="802" y="1785" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-16" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;UPDATE（可以删除本AS的路由，也可以更新，删除可以一次删除多条，更新只能一次一条）&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="802" y="1815" width="530" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-17" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;KEEPALIVE（保活）&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="791" y="1845" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-18" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;NOTIFICATION(用来发送检测出的差错)&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="777" y="1875" width="295" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-19" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="524" y="1788" as="sourcePoint" />
+            <mxPoint x="584" y="1788" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-20" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;IPv6&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="306" y="960" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="366" y="920" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-22" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;对比v4的主要变化&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="910" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="496" y="872.5" width="20" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="57KmwuT8w8z1DkJVk8GE-24" value="更大的地址空间，128位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="509" y="860" width="168" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
