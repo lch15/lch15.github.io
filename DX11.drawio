@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T12:06:33.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="15.5.2" etag="00sH42744p45BJU4f0Gp" type="github"><diagram id="QavabJWZF5oIrLPEu44S">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-24T13:43:37.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="6SZIFI9pH13fyT7-TBTI" version="15.5.2" type="github">
+  <diagram id="QavabJWZF5oIrLPEu44S" name="Page-1">
+    <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R-zfKPZI4cM-MtRs1BsM-1" value="向量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-zfKPZI4cM-MtRs1BsM-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="260" width="20" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="R-zfKPZI4cM-MtRs1BsM-3" value="向量是由长度和方向决定的，都相等的两个向量视为相等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-zfKPZI4cM-MtRs1BsM-4" value="向量的表示一定是基于坐标系的，同一个向量在不同坐标系由不同的数学表示" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-zfKPZI4cM-MtRs1BsM-5" value="向量坐标表示的数学定律" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="405" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-zfKPZI4cM-MtRs1BsM-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="320" width="20" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="R-zfKPZI4cM-MtRs1BsM-7" value="向量(x, y ,z)与向量(m, n, q)相加等于(x + m, y + n, z + q)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-zfKPZI4cM-MtRs1BsM-8" value="向量(x, y ,z)与标量k相乘等于(kx, ky ,kz)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-zfKPZI4cM-MtRs1BsM-9" value="向量(x, y ,z)与向量(m, n, q)相减等于(x - m, y - n, z - q)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="370" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-zfKPZI4cM-MtRs1BsM-11" value="向量的模" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="405" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-zfKPZI4cM-MtRs1BsM-13" value="向量(x, y ,z)与向量(m, n, q)的点乘等于xm + yn + zq =&amp;nbsp; 模相乘*cos夹角，相乘的结果是一个标量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="445" width="510" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-zfKPZI4cM-MtRs1BsM-14" value="向量叉乘得到一个垂直于原平面的一个向量，（x, y ）和(-y, x)垂直" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="490" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R-zfKPZI4cM-MtRs1BsM-15" value="把一组向量正交标准化的方法：1.施密特正交化 2.叉乘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="530" width="360" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
